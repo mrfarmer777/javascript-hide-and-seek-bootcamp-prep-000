@@ -4,7 +4,7 @@ var getFirstSelector=function(selector){
 };
 
 var nestedTarget=function(){
-  var kids =  document.querySelector('#nested div[className[="target"');
+  var kids =  document.querySelector('#nested .target');
   return kids;
   
 };
