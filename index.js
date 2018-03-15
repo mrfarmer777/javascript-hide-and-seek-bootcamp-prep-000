@@ -5,7 +5,8 @@ var getFirstSelector=function(selector){
 
 var nestedTarget=function(){
   var kids =  document.getElementById('nested').children;
-  return kids getElementsByClassName('target');
+  for(var i=0; i<kids.length;i++){
+    if(kids[i].class getElementsByClassName('target');
   
 };
 
