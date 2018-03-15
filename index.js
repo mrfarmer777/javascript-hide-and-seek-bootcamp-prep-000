@@ -4,7 +4,7 @@ var getFirstSelector=function(selector){
 };
 
 var nestedTarget=function(){
-  var kids =  document.getElementById('nested').children;
+  var kids =  document.getElementById('nested').childNodes;
   return kids;
   
 };
