@@ -6,8 +6,10 @@ var getFirstSelector=function(selector){
 var nestedTarget=function(){
   var kids =  document.getElementById('nested').children;
   for(var i=0; i<kids.length;i++){
-    if(kids[i].class getElementsByClassName('target');
-  
+    if(kids[i].className==='target'){
+      return kids[i];
+    }
+  }
 };
 
 var increaseRankBy=function(n){
